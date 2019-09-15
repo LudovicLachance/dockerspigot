@@ -1,0 +1,13 @@
+version: "3.5"
+services:
+  build:
+    container_name: spigot_build
+    build: ./build
+    command: [
+      "java", "-jar", "/spigot_build/BuildTools.jar",
+      "-o", "/spigot_artifacts"
+      # "--help"
+    ]
+    volumes: [
+      "./spigot_artifacts:/spigot_artifacts"
+    ]
