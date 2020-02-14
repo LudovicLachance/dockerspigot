@@ -5,8 +5,6 @@
 sudo curl -fsSL https://get.docker.com | bash
 ```
 
-```
-
 ## Step 2 -> Install docker-compose
 
 ```
